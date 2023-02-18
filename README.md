@@ -25,18 +25,18 @@ Most commonly used creational design patterns:
 
 ## Singleton Pattern
 
-Singleton pattern is a creational design pattern that ensures that a class has only one instance, providing a global point of access to it.This pattern is useful when a single instance of a class is needed to coordinate actions within a system.
+Singleton pattern is a creational design pattern that ensures that a class has only **one instance**, providing a **global point of access** to it.
 
 ### When should we use this Pattern?
 
-The Singleton pattern is appropriate when a single instance of a class needs to coordinate actions across a system, and when it is important to ensure that there is only one instance of the class in the system. Here are some situations where the Singleton pattern might be appropriate:
+The Singleton pattern is appropriate when a **single instance of a class needs to coordinate actions across a system**, and when it is important to ensure that there is only one instance of the class in the system. Here are some situations where the Singleton pattern might be appropriate:
 
-- When managing access to a shared resource such as a database connection, file system, or network socket.<br>
+- When **managing access to a shared resource** such as a database connection, file system, or network socket.<br>
     Example: Suppose you are building a system that needs to manage access to a shared database connection. You want to ensure that there is only one instance of the database connection object in the system, and that this instance is accessible from all parts of the system. In this case, you might use the Singleton pattern to create a single instance of the database connection object that can be shared throughout the system
 
-- When coordinating actions across the system, such as managing a system configuration or logging system.
+- When **coordinating actions across the system**, such as managing a system configuration or logging system.
 
-- When there is a need for a single, global point of control, such as in a command or control system.
+- When there is a **need for a single, global point of control**, such as in a command or control system.
 
 ### Implementation
 
